@@ -28,9 +28,9 @@ public class DiscountsPage extends BasePage {
     }
 
     public DiscountsPage waitForDiscountsPageLoaded() {
-        new WebDriverWait(driver, ofSeconds(20)).
+        new WebDriverWait(driver, ofSeconds(30)).
                 until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@data-id='product']"), 0));
-        new WebDriverWait(driver, ofSeconds(20)).
+        new WebDriverWait(driver, ofSeconds(30)).
                 until(ExpectedConditions.elementToBeClickable(listOfOffers.get(listOfOffers.size() - 1)));
         return this;
     }

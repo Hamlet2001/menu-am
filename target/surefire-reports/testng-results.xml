@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-18T09:56:44 AMT" name="Parallel Test Suite" finished-at="2023-01-18T09:58:42 AMT" duration-ms="118150">
+    <groups>
+    </groups>
+    <test started-at="2023-01-18T09:56:44 AMT" name="Test-menu-am" finished-at="2023-01-18T09:58:42 AMT" duration-ms="118150">
+      <class name="CartFunctionalityTests">
+        <test-method is-config="true" signature="initTests(java.lang.String)[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:56:44 AMT" name="initTests" finished-at="2023-01-18T09:56:44 AMT" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method signature="TestFive()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:56:44 AMT" name="TestFive" finished-at="2023-01-18T09:57:31 AMT" duration-ms="46709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFive -->
+        <test-method signature="TestFour()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:56:44 AMT" name="TestFour" finished-at="2023-01-18T09:57:30 AMT" duration-ms="45439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFour -->
+        <test-method signature="TestOne()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:56:44 AMT" name="TestOne" finished-at="2023-01-18T09:57:30 AMT" duration-ms="45439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method is-config="true" signature="clearCartAndLogOut()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:57:30 AMT" name="clearCartAndLogOut" finished-at="2023-01-18T09:57:34 AMT" duration-ms="3866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCartAndLogOut -->
+        <test-method is-config="true" signature="clearCartAndLogOut()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:57:30 AMT" name="clearCartAndLogOut" finished-at="2023-01-18T09:57:34 AMT" duration-ms="4013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCartAndLogOut -->
+        <test-method is-config="true" signature="clearCartAndLogOut()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:57:31 AMT" name="clearCartAndLogOut" finished-at="2023-01-18T09:57:35 AMT" duration-ms="3839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCartAndLogOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:57:34 AMT" name="tearDown" finished-at="2023-01-18T09:57:34 AMT" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:57:34 AMT" name="tearDown" finished-at="2023-01-18T09:57:34 AMT" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TestSix()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:57:34 AMT" name="TestSix" finished-at="2023-01-18T09:58:22 AMT" duration-ms="47709" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for number of elements found by By.xpath: //div[@data-id='product'] to be more than "0". Current number: "0" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Hamlet\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62080}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62080/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70ce485be2ec74e22dff7e469c119287]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.xpath: //div[@data-id='product'] to be more than "0". Current number: "0" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Hamlet\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62080}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62080/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70ce485be2ec74e22dff7e469c119287
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pages.DiscountsPage.waitForDiscountsPageLoaded(DiscountsPage.java:32)
+at CartFunctionalityTests.TestSix(CartFunctionalityTests.java:158)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSix -->
+        <test-method signature="TestThree()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:57:34 AMT" name="TestThree" finished-at="2023-01-18T09:58:17 AMT" duration-ms="42320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestThree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:57:35 AMT" name="tearDown" finished-at="2023-01-18T09:57:38 AMT" duration-ms="3046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TestTwo()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:57:38 AMT" name="TestTwo" finished-at="2023-01-18T09:58:16 AMT" duration-ms="38187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+        <test-method is-config="true" signature="clearCartAndLogOut()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:58:16 AMT" name="clearCartAndLogOut" finished-at="2023-01-18T09:58:20 AMT" duration-ms="3717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCartAndLogOut -->
+        <test-method is-config="true" signature="clearCartAndLogOut()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:58:17 AMT" name="clearCartAndLogOut" finished-at="2023-01-18T09:58:21 AMT" duration-ms="4121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCartAndLogOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:58:20 AMT" name="tearDown" finished-at="2023-01-18T09:58:21 AMT" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:58:21 AMT" name="tearDown" finished-at="2023-01-18T09:58:21 AMT" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="clearCartAndLogOut()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:58:22 AMT" name="clearCartAndLogOut" finished-at="2023-01-18T09:58:42 AMT" duration-ms="20276" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@data-id='deleteAll']"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70ce485be2ec74e22dff7e469c119287, findElement {using=xpath, value=//a[@data-id='deleteAll']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Hamlet\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62080}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62080/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70ce485be2ec74e22dff7e469c119287]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@data-id='deleteAll']"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70ce485be2ec74e22dff7e469c119287, findElement {using=xpath, value=//a[@data-id='deleteAll']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Hamlet\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62080}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62080/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70ce485be2ec74e22dff7e469c119287
+at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:485)
+at pages.BasePage.clickByJavaScriptExecutor(BasePage.java:18)
+at pages.CartPage.clearCart(CartPage.java:92)
+at CartFunctionalityTests.clearCartAndLogOut(CartFunctionalityTests.java:172)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCartAndLogOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CartFunctionalityTests@4466af20]" started-at="2023-01-18T09:58:42 AMT" name="tearDown" finished-at="2023-01-18T09:58:42 AMT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CartFunctionalityTests -->
+    </test> <!-- Test-menu-am -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>

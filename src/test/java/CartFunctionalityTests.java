@@ -29,11 +29,11 @@ public class CartFunctionalityTests extends BaseTest {
         Properties properties = new Properties();
         FileInputStream fileInputStream = new FileInputStream(filePath);
         properties.load(fileInputStream);
-        String login3 = properties.getProperty("login3");
-        String password3 = properties.getProperty("password3");
+        String login = properties.getProperty("login3");
+        String password = properties.getProperty("password3");
         new HomePage(DriverFactory.getDriver())
                 .openHomePage()
-                .signIn(login3, password3)
+                .signIn(login, password)
                 .waitForLoginPageLoaded()
                 .setDeliveryAddress();
         addProductFromFiltersToCart();
@@ -50,11 +50,11 @@ public class CartFunctionalityTests extends BaseTest {
         Properties properties = new Properties();
         FileInputStream fileInputStream = new FileInputStream(filePath);
         properties.load(fileInputStream);
-        String login1 = properties.getProperty("login3");
-        String password1 = properties.getProperty("password3");
+        String login = properties.getProperty("login3");
+        String password = properties.getProperty("password3");
         new HomePage(DriverFactory.getDriver())
                 .openHomePage()
-                .signIn(login1, password1)
+                .signIn(login, password)
                 .waitForLoginPageLoaded()
                 .setDeliveryAddress();
         addProductFromFiltersToCart();
@@ -71,12 +71,12 @@ public class CartFunctionalityTests extends BaseTest {
         Properties properties = new Properties();
         FileInputStream fileInputStream = new FileInputStream(filePath);
         properties.load(fileInputStream);
-        String login2 = properties.getProperty("login2");
-        String password2 = properties.getProperty("password2");
+        String login = properties.getProperty("login2");
+        String password = properties.getProperty("password2");
         new HomePage(DriverFactory.getDriver())
                 .openHomePage()
                 .waitForHomePageLoaded()
-                .signIn(login2, password2)
+                .signIn(login, password)
                 .waitForLoginPageLoaded()
                 .setDeliveryAddress();
         addProductFromFiltersToCart();
@@ -93,11 +93,11 @@ public class CartFunctionalityTests extends BaseTest {
         Properties properties = new Properties();
         FileInputStream fileInputStream = new FileInputStream(filePath);
         properties.load(fileInputStream);
-        String login2 = properties.getProperty("login2");
-        String password2 = properties.getProperty("password2");
+        String login = properties.getProperty("login2");
+        String password = properties.getProperty("password2");
         new HomePage(DriverFactory.getDriver())
                 .openHomePage()
-                .signIn(login2, password2)
+                .signIn(login, password)
                 .waitForLoginPageLoaded()
                 .setDeliveryAddress();
         addProductFromFiltersToCart();
@@ -117,11 +117,11 @@ public class CartFunctionalityTests extends BaseTest {
         Properties properties = new Properties();
         FileInputStream fileInputStream = new FileInputStream(filePath);
         properties.load(fileInputStream);
-        String login1 = properties.getProperty("login1");
-        String password1 = properties.getProperty("password1");
+        String login = properties.getProperty("login1");
+        String password = properties.getProperty("password1");
         new HomePage(DriverFactory.getDriver())
                 .openHomePage()
-                .signIn(login1, password1)
+                .signIn(login, password)
                 .waitForLoginPageLoaded()
                 .setDeliveryAddress();
         addProductFromFiltersToCart();
@@ -145,11 +145,11 @@ public class CartFunctionalityTests extends BaseTest {
         Properties properties = new Properties();
         FileInputStream fileInputStream = new FileInputStream(filePath);
         properties.load(fileInputStream);
-        String login3 = properties.getProperty("login1");
-        String password3 = properties.getProperty("password1");
+        String login = properties.getProperty("login1");
+        String password = properties.getProperty("password1");
         new HomePage(DriverFactory.getDriver())
                 .openHomePage()
-                .signIn(login3, password3)
+                .signIn(login, password)
                 .waitForLoginPageLoaded()
                 .setDeliveryAddress();
         String concreteProductNameFromDiscountsPage = "Ընտանեկան կոմբո";
